@@ -34,6 +34,7 @@ class Stack:
         temp.next = None
         self.height -= 1
 
+        return temp.value
 
 stack = Stack()
 stack.push(1)
